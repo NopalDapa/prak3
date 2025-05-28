@@ -311,9 +311,10 @@ praktikan2:praktikan2
     - nano profile
     - tambahkan `echo "Helloo $USER"`
       //sehingga isi lengkap etc/profile//
-      #!/bin/sh
-    echo "Helloo $USER"
-    export PS1='\[\e[32m\]\u@\h:\w\$ \[\e[0m\]'
+        #!/bin/sh
+        echo "Helloo $USER"
+        export PS1='\[\e[32m\]\u@\h:\w\$ \[\e[0m\]'
+      //
   ```
 
 - **Explanation:**
