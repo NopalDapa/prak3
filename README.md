@@ -282,16 +282,11 @@ praktikan2:praktikan2
         $$  /   \$$ |\$$$$$$$\ $$ |\$$$$$$$\ \$$$$$$  |$$ | $$ | $$ |\$$$$$$$\         \$$$$  |\$$$$$$  |       $$$$$$  |\$$$$$$  |    $$$$$$$$\ \$$$$$$  |
         \__/     \__| \_______|\__| \_______| \______/ \__| \__| \__| \_______|         \____/  \______/        \______/  \______/     \________| \______/
         //
-      - nano profile
-        //isi dari profile//
-          #!/bin/sh
-          export PS1='\[\e[32m\]\u@\h:\w\$ \[\e[0m\]'
-        //
   ```
 
 - **Explanation:**
 
-  `put your answer here`
+  `buat file motd di direktori osboot/myramdisk/etc, lalu isi dengan ASCII ART yang ingin ditampilkan.`
 
 - **Screenshot:**
 
@@ -309,8 +304,7 @@ praktikan2:praktikan2
 
   ```
     - nano profile
-    - tambahkan `echo "Helloo $USER"`
-      //sehingga isi lengkap etc/profile//
+      //isi etc/profile//
         #!/bin/sh
         echo "Helloo $USER"
         export PS1='\[\e[32m\]\u@\h:\w\$ \[\e[0m\]'
