@@ -21,7 +21,7 @@
 
 ### Laporan Resmi Praktikum Modul 4 _(Module 4 Lab Work Report)_
 
-### Cara Pengerjaan Task 3
+### Cara Pengerjaan Task 2
 
 ## Setup awal
 ```
